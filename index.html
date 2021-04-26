@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img {
+        height: auto;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is a dynamic loaded picture (see devtools)</h1>
+    <img
+      src="https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=200"
+      sizes="50vw"
+      srcset="
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=100   100w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=200   200w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=400   400w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=800   800w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=1000 1000w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=1400 1400w,
+        https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=1800 1800w
+      "
+      alt="shanghai"
+    />
+
+    <h1>width 100px</h1>
+    <img
+      src="https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=100"
+    />
+
+    <h1>width 400px</h1>
+    <img
+      src="https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-w=400"
+    />
+
+    <h1>height 100px</h1>
+    <img
+      src="https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-h=100"
+    />
+
+    <h1>height 400px</h1>
+    <img
+      src="https://imgprocessing.pesc.xyz/api/render/dynamic/74e7767b-b3ba-4863-9bd8-81f22d22992d?resize-h=400"
+    />
+  </body>
+</html>
